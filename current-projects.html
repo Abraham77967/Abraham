@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Projects - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Cinzel:wght@400;500;600;700&family=Damion&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <nav class="glass-nav">
+        <div class="nav-content">
+            <div class="logo">Abraham Guo</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="current-projects.html" class="active">Current Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <section class="current-projects-section">
+            <h2 class="section-title scroll-animate">Current Projects</h2>
+            
+            <div class="current-projects-content">
+                <!-- Project Header -->
+                <div class="project-header">
+                    <div class="project-title">
+                        <i class="fas fa-door-open"></i>
+                        <h2>Smart Door System</h2>
+                        <span class="project-subtitle">Girls Who Code InfyMaker Award</span>
+                    </div>
+                    <div class="project-status in-progress">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        In Progress
+                    </div>
+                </div>
+                
+                <!-- Project Overview -->
+                <div class="project-overview">
+                    <div class="project-description">
+                        <p>A smart door system developed for the Girls Who Code InfyMaker Award summer camp. The project uses an ultrasonic sensor to detect when objects approach within a specific distance, automatically opening the door. This innovative solution combines hardware prototyping, sensor integration, and mechanical design for enhanced accessibility.</p>
+                    </div>
+                    <div class="project-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 75%"></div>
+                        </div>
+                        <div class="progress-text">75% Complete</div>
+                    </div>
+                    <div class="project-tech">
+                        <span>Arduino</span>
+                        <span>Ultrasonic Sensors</span>
+                        <span>3D Modeling</span>
+                        <span>Mechanical Design</span>
+                    </div>
+                </div>
+
+                <!-- Integrated Timeline -->
+                <div class="project-timeline">
+                    <h3>Project Timeline</h3>
+                    
+                    <!-- Timeline with fixed line and markers -->
+                    <div class="timeline-container">
+                        <!-- Fixed center line -->
+                        <div class="timeline-line"></div>
+                        
+                        <!-- Fixed markers -->
+                        <div class="timeline-marker completed" style="top: 100px;"></div>
+                        <div class="timeline-marker completed" style="top: 270px;"></div>
+                        <div class="timeline-marker active pulse" style="top: 440px;"></div>
+                        <div class="timeline-marker future" style="top: 610px;"></div>
+                        
+                        <!-- Timeline items -->
+                        <div class="timeline-entry left">
+                            <div class="timeline-date">February 2025</div>
+                            <div class="timeline-entry-content">
+                                <h4>Initial Design Phase</h4>
+                                <p>Started with conceptual design and planning for the Girls Who Code InfyMaker Award submission. Defined the smart door system's functionality, focusing on ultrasonic sensor integration and accessibility features.</p>
+                                <div class="timeline-milestone">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Design Completed</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-entry right">
+                            <div class="timeline-date">March 2025</div>
+                            <div class="timeline-entry-content">
+                                <h4>3D Modeling & Circuit Design</h4>
+                                <p>Created detailed 3D models of the door components and designed the Arduino-based circuit with ultrasonic sensors for distance detection. Developed the electronic systems for automated door operation.</p>
+                                <div class="timeline-milestone">
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>3D Modeling Completed</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-entry left">
+                            <div class="timeline-date">April 2025</div>
+                            <div class="timeline-entry-content">
+                                <h4>Prototype Development</h4>
+                                <p>Assembled the prototype with Arduino, ultrasonic sensors, and 3D printed components. Programmed the system to automatically open the door when objects are detected within a specific distance range.</p>
+                                <a href="https://drive.google.com/file/d/1GjsZXZk5yJgZP7I6J_lybuUvoAFutte8/view?usp=drive_link" target="_blank" class="timeline-link">
+                                    <i class="fas fa-play-circle"></i> Watch Demo Video
+                                </a>
+                                <div class="timeline-milestone active">
+                                    <i class="fas fa-circle"></i>
+                                    <span>Prototype In Progress</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-entry right">
+                            <div class="timeline-date">May 2025</div>
+                            <div class="timeline-entry-content">
+                                <h4>Testing & InfyMaker Submission</h4>
+                                <p>Planned phase for comprehensive testing, final refinements, and preparation of the project submission for the Girls Who Code InfyMaker Award competition.</p>
+                                <div class="timeline-milestone">
+                                    <i class="fas fa-circle"></i>
+                                    <span>Submission Planned</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-footer">
+        <div class="footer-content">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/abraham-guo/" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:abrahamg7797@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="page-transitions.js"></script>
+    <script src="custom-cursor.js"></script>
+    
+    <script>
+        // Position timeline markers dynamically
+        document.addEventListener('DOMContentLoaded', function() {
+            function positionMarkers() {
+                const timelineEntries = document.querySelectorAll('.timeline-entry');
+                const timelineMarkers = document.querySelectorAll('.timeline-marker');
+                
+                timelineEntries.forEach((entry, index) => {
+                    if (index < timelineMarkers.length) {
+                        // Position the marker at the center of the entry for better alignment
+                        const entryRect = entry.getBoundingClientRect();
+                        const containerRect = document.querySelector('.timeline-container').getBoundingClientRect();
+                        
+                        // Calculate the center position of the entry relative to the container
+                        const entryCenter = entryRect.top + (entryRect.height / 2) - containerRect.top;
+                        
+                        // Set the marker position at the entry's center
+                        timelineMarkers[index].style.top = Math.round(entryCenter) + 'px';
+                    }
+                });
+            }
+            
+            // Initial positioning with a slight delay to ensure all elements are rendered
+            setTimeout(positionMarkers, 100);
+            
+            // Additional positioning attempt after all resources are loaded
+            window.addEventListener('load', positionMarkers);
+            
+            // Reposition on resize
+            window.addEventListener('resize', positionMarkers);
+        });
+    </script>
+</body>
+</html> 
